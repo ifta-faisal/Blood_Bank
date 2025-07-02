@@ -29,11 +29,29 @@ This project is ideal for hospitals, medical organizations, college DBMS assignm
 
 ---
 
-## ⚙️ How to Run the Project Locally
+## 🛠️ Tech Stack
 
-Follow these steps to set up and run the project on your local server:
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **UI Framework**: Bootstrap (optional, customizable)
 
-### 1. Clone the Repository
+---
+
+## 📁 Folder Structure
+
 ```bash
-git clone https://github.com/your-username/blood-bank-management.git
-cd blood-bank-management
+📁 blood-bank-management/
+├── 📁 image/                  # Static images (logos, banners, etc.)
+├── 📁 css/                    # (Optional) Custom styles
+├── 📁 js/                     # (Optional) JavaScript files
+├── 📁 database/               # SQL schema
+├── conn.php                  # DB connection file
+├── head.php                  # Header navigation
+├── index.php                 # Homepage
+├── donate_blood.php          # Donor registration form
+├── savedata.php              # Handles donor form submission
+├── need_blood.php            # Search for blood group
+├── donor_details.php         # Donor profile view
+├── contact.php               # Contact form
+├── README.md                 # This file
